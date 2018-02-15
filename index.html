@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Application Form</title>
+
+  <!-- Fonts have already been added here! -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="main">
+    <div class="contact">
+      <h1>your contact info</h1>
+      <form class="formcontact">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name">
+        <label for="emailaddress">Email</label>
+        <input type="text" id="emailaddress" name="emailaddress" placeholder="Enter Your Email">
+        <label for="usrtel">Phone Number</label>
+        <input type="tel" id="usrtel" name="usrtel" placeholder="Enter Your Phone Number">
+  		</form>
+    </div>
+    <div class="horizontalline"></div>
+    <div class="skills">
+      <h1>skills and interest</h1>
+      <form class="formskills">
+        <p>What course are you interested in?</p>
+        <select class="course" name="coursename">
+          <option value="front">Front End Web Development</option>
+          <option value="back">Back End Web Development</option>
+          <option value="user">User Experience</option>
+          <option value="java">JavaScript Development</option>
+          <option value="data">Data Science</option>
+        </select>
+        <br>
+        <div class="where">
+          <p>Where do you want to take this course?</p>
+          <label for="city">San Francisco</label>
+          <input type="radio" name="city" id="SanFrancisco">
+          <label for="city">Chicago</label>
+          <input type="radio" name="city" id="Chicago">
+        </div>
+        <!-- <div class="radiobuttons">
+          <p>Where do you want to take this course?</p>
+          <label for="red">San Francisco</label>
+          <input type="radio" name="city" id="SanFrancisco">
+          <label for="red">Chicago</label>
+          <input type="radio" name="city" id="Chicago">
+        </div> -->
+        <br>
+        <label for="experience">Past Experience</label>
+  			<textarea placeholder="What is your past experience?" id="experience"></textarea>
+      </div>
+      <div class="horizontalline"></div>
+      <div class="emailbutton">
+        <label for="updates" id="updates">I want to recieve email updates.</label>
+        <input type="checkbox" id="updates">
+    		<button type="button" name="submit">Submit Application</button>
+    	</form>
+    </div>
+
+  </main>
+
+
+
+
+</body>
+</html>

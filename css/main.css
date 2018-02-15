@@ -1,0 +1,148 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	letter-spacing: .02em;
+	color: Black;
+	padding: 40px 0px;
+  background-color: #98d2bf
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin: 10px 0px 25px 10px;
+}
+
+input,textarea {
+  border: 2px solid lightgray;
+	display: block;
+	/* width: 70%; */
+	margin: 10px 0px 10px 10px;
+	padding: 20px 0px 20px 10px;
+	letter-spacing: normal;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#fullname,#emailaddress,#usrtel {
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: -1px;
+}
+
+input {
+  border-radius: 6px;
+}
+
+textarea {
+
+}
+
+button {
+  display: block;
+  background-color: #b69843;
+  color: white;
+  margin-top: 30px;
+	padding: 10px 20px;
+	letter-spacing: normal;
+	font-size: 16px;
+	font-weight: normal;
+  border-radius: 6px;
+}
+
+select {
+  margin-top: 10px;
+}
+
+.where {
+  margin-top: 30px;
+}
+
+.main {
+  background-color: white;
+  border-radius: 6px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.horizontalline {
+  border-top: 2px solid silver;
+  margin: 0px 2%;
+  padding: 0px 0px 10px 0px;
+}
+/* why doesnt display: block attribute in the div class affect the input and textareas? */
+.contact {
+  display: block;
+  padding: 30px 50px 30px 30px;
+  text-align: left;
+}
+
+.formcontact {
+  margin: 20px 0px 20px 0px;
+}
+
+.formskills {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.radiobuttons {
+      display: inline;
+      /* margin: 10px 0px 10px 30px;
+    	padding: 20px 0px; */
+      text-align: left;
+      width: auto;
+      min-width: 0;
+}
+
+.emailbutton {
+    margin: 10px 0px 10px 30px;
+  	padding: 10px 0px;
+    text-align: left;
+    /* width: auto;
+    min-width: 0; */
+}
+
+.skills {
+  padding: 30px;
+  text-align: left;
+}
+
+
+#updates {
+  display: inline-block;
+}
+
+#experience {
+  border: 2px solid lightgray;
+	display: block;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	padding: 0px 0px 50px 0px;
+	letter-spacing: normal;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#fullname,#emailaddress,#usrtel {
+  margin: inherit;
+}
+
+#SanFrancisco {
+  display: inline;
+  margin-right: 10px;
+}
+
+#Chicago {
+  display: inline;
+}
